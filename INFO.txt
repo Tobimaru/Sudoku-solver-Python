@@ -1,0 +1,14 @@
+This Python application solves Sudoku puzzles using recursive backtracking. It was implemented for a coding challenge of the Insight Data Engineering Program (insightdataengineering.com).
+
+The implementation depends on the Numpy package, which can be installed in different ways (see http://www.scipy.org/install.html). For Mac OSX, the following options can be considered:
+
+- using pip (https://pypi.python.org/pypi/pip): execute  'sudo pip install numpy'
+- using setuptools (https://pypi.python.org/pypi/setuptools): execute 'sudo easy_install numpy'
+- using Macports (https://www.macports.org): execute 'sudo port install py27-numpy'
+
+The application expects input from a CSV file consisting of an unsolved Sudoku with 0's representing empty cells, and will print and save the solution in a CSV file in the same directory containing the input file. An example CSV file is included.
+
+To run the application execute:
+
+- 'python SolveSudoku.py -help' for more information
+- 'python SolveSudoku.py <path to csv-file with unsolved Sudoku>' to solve sudoku.
